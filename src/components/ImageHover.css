@@ -1,0 +1,22 @@
+.image-container {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 40px;
+}
+
+.image {
+  width: 270px;
+  border-radius: 1em;
+  height: 400px;
+  margin-left: 10px;
+  transition: transform 0.7s ease, width 0.7s ease;
+}
+
+.image.hovered {
+  width: 350px;
+}
+
+.image.shrink {
+  width: 250px;
+}
